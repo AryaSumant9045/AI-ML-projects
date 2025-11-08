@@ -59,4 +59,5 @@ if __name__ == "__main__":
 
         elif 'play music' in query:
             music_dir = "/Users/aryasumant/Documents/GenAI Bootcamp/Deep Learning"
-            songs = 
+            songs = os.listdir(music_dir)
+            
