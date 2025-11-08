@@ -81,4 +81,5 @@ if __name__ == "__main__":
                 content = takeCommand()
                 to  = "studywithpwno.1@gmail.com"
                 sendEmail(to, content)
-                
+                speak("Emal has been send")
+            except ec
