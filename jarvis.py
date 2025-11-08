@@ -5,6 +5,7 @@ import webbrowser
 import datetime
 import os
 import subprocess
+import smtplib
 
 engine = pyttsx3.init('nsss')
 voices = engine.getProperty('voices')
@@ -45,7 +46,7 @@ def takeCommand():
     return query
 
 def sendEmail(to, content):
-    server = smtp
+    server = smtplib.SMTP()
 if __name__ == "__main__":
     WishMe()
     while True:
