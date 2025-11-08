@@ -48,4 +48,5 @@ if __name__ == "__main__":
         # logic for executing task based on query
         if 'wikipedia' in query:
             speak('Searching wikipedia...')
-            query = query.replace()
+            query = query.replace('wikipedia', "")
+            
