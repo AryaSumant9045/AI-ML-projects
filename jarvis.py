@@ -78,4 +78,5 @@ if __name__ == "__main__":
         elif 'email to sumant' in query:
             try:
                 speak("what should i say?")
-                
+                content = takeCommand()
+                to  = 
