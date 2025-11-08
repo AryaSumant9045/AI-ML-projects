@@ -88,7 +88,7 @@ if __name__ == "__main__":
             try:
                 speak("what should i say?")
                 content = takeCommand()
-                to  = "sumantsainijnvbijnor.1@gmail.com"
+                to  = "sumantsainijnvbijnor@gmail.com"
                 sendEmail(to, content)
                 speak("Emal has been send")
             except Exception as e:
