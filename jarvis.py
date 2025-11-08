@@ -58,10 +58,10 @@ if __name__ == "__main__":
             webbrowser.open("https://youtube.com")
 
         # Replace the music playing section with:
-    elif 'play music' in query:
-        music_dir = "/Users/aryasumant/Documents/GenAI Bootcamp/Deep Learning"
-        songs = os.listdir(music_dir)
-        print(songs)
-        # Use subprocess or webbrowser to open files on macOS
-        import subprocess
-        subprocess.call(["open", os.path.join(music_dir, songs[0])])
+        elif 'play music' in query:
+            music_dir = "/Users/aryasumant/Documents/GenAI Bootcamp/Deep Learning"
+            songs = os.listdir(music_dir)
+            print(songs)
+            # Use subprocess or webbrowser to open files on macOS
+            import subprocess
+            subprocess.call(["open", os.path.join(music_dir, songs[0])])
