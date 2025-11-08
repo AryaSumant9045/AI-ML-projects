@@ -1,6 +1,7 @@
 import pyttsx3
 import speech_recognition as sr
 import wikipedia
+import webbrowser
 import datetime
 
 engine = pyttsx3.init('nsss')
@@ -52,3 +53,4 @@ if __name__ == "__main__":
             results = wikipedia.summary(query, sentences= 2)
             speak(f"According to wikipedia...{results}")
             print(results)
+        elif
