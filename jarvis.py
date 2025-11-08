@@ -71,5 +71,5 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open vs code' in query:
-            codePath = "/Applications/"
+            codePath = "/Applications/iMovie"
             os.listdir(codePath)
