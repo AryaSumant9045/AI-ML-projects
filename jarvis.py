@@ -3,6 +3,7 @@ import speech_recognition as sr
 import wikipedia
 import webbrowser
 import datetime
+import os
 
 engine = pyttsx3.init('nsss')
 voices = engine.getProperty('voices')
@@ -55,3 +56,5 @@ if __name__ == "__main__":
             print(results)
         elif 'open youtube' in query:
             webbrowser.open("https://youtube.com")
+
+        elif ''
