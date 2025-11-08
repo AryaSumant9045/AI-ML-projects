@@ -44,4 +44,5 @@ if __name__ == "__main__":
     WishMe()
     while True:
         query = takeCommand().lower()
-        # 
+        # logic for executing task based on query
+        
