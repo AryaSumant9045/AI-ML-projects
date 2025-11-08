@@ -53,4 +53,5 @@ if __name__ == "__main__":
             results = wikipedia.summary(query, sentences= 2)
             speak(f"According to wikipedia...{results}")
             print(results)
-        elif
+        elif 'open youtube' in query:
+            
