@@ -65,3 +65,5 @@ if __name__ == "__main__":
             # Use subprocess or webbrowser to open files on macOS
             import subprocess
             subprocess.call(["open", os.path.join(music_dir, songs[0])])
+        
+        elif 
