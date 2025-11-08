@@ -44,6 +44,7 @@ def takeCommand():
         return "None"
     return query
 
+def 
 if __name__ == "__main__":
     WishMe()
     while True:
