@@ -72,5 +72,5 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open vs code' in query:
-            codePath = "/Applications/Visual Studio Code.app"
+            codePath = "/Applications/iMovie.app"
             subprocess.call(["open", codePath])
