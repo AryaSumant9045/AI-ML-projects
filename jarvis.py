@@ -80,4 +80,5 @@ if __name__ == "__main__":
                 speak("what should i say?")
                 content = takeCommand()
                 to  = "studywithpwno.1@gmail.com"
-                send
+                sendEmail(to, content)
+                
