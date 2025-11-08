@@ -72,3 +72,4 @@ if __name__ == "__main__":
 
         elif 'open vs code' in query:
             codePath = "/Applications/Github Desktop"
+            os.listdir(codePath)
