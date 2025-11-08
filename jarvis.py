@@ -46,7 +46,7 @@ def takeCommand():
     return query
 
 def sendEmail(to, content):
-    server = smtplib.SMTP()
+    server = smtplib.SMTP('smtp.google.com', )
 if __name__ == "__main__":
     WishMe()
     while True:
