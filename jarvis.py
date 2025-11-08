@@ -58,4 +58,4 @@ if __name__ == "__main__":
             webbrowser.open("https://youtube.com")
 
         elif 'play music' in query:
-            music_dir = ""
+            music_dir = "/Users/aryasumant/Documents/GenAI Bootcamp/Deep Learning"
