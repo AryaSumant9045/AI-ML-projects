@@ -49,7 +49,7 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smntp.google.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('')
+    server.login('youremail@gmail.com', '')
 if __name__ == "__main__":
     WishMe()
     while True:
