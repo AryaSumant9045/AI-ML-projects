@@ -57,4 +57,5 @@ if __name__ == "__main__":
         elif 'open youtube' in query:
             webbrowser.open("https://youtube.com")
 
-        elif ''
+        elif 'play music' in query:
+            music_dir = ""
