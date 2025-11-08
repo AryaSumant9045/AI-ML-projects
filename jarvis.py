@@ -4,6 +4,7 @@ import wikipedia
 import webbrowser
 import datetime
 import os
+import subprocess
 
 engine = pyttsx3.init('nsss')
 voices = engine.getProperty('voices')
