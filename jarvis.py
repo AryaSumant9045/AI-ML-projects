@@ -46,13 +46,13 @@ def takeCommand():
     return query
 
 def sendEmail(to, content):
-    server = smtplib.SMTP('smntp.google.com', 587)
+    server = smtplib.SMTP('smtp.google.com', 587)
     server.ehlo()
     server.starttls()
     server.login('youremail@gmail.com', 'Your- password - here')
     server.sendmail('youremail@gmail.com',to , content)
     server.close()
-    
+
 if __name__ == "__main__":
     WishMe()
     while True:
