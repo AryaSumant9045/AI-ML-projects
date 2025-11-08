@@ -47,4 +47,5 @@ if __name__ == "__main__":
         query = takeCommand().lower()
         # logic for executing task based on query
         if 'wikipedia' in query:
-            speak('Searching ')
+            speak('Searching wikipedia...')
+            query = query.replace()
