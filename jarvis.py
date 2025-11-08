@@ -49,7 +49,7 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('sumantsainijnvbijnor@gmail.com', '9ram1008')
+    server.login('youremail@gamil.com', 'your-password')
     server.sendmail('youremail@gmail.com',to , content)
     server.close()
 
