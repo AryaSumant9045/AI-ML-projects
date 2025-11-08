@@ -51,7 +51,8 @@ def sendEmail(to, content):
     server.starttls()
     server.login('youremail@gmail.com', 'Your- password - here')
     server.sendmail('youremail@gmail.com',to , content)
-    ser
+    server.close()
+    
 if __name__ == "__main__":
     WishMe()
     while True:
