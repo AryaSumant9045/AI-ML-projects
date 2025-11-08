@@ -54,4 +54,4 @@ if __name__ == "__main__":
             speak(f"According to wikipedia...{results}")
             print(results)
         elif 'open youtube' in query:
-            webbrowser.open("youtube.com")
+            webbrowser.open("httpsyoutube.com")
