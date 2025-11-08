@@ -1,5 +1,6 @@
 import pyttsx3
 import speech_recognition as sr
+import wikipedia
 import datetime
 
 engine = pyttsx3.init('nsss')
@@ -45,4 +46,4 @@ if __name__ == "__main__":
     while True:
         query = takeCommand().lower()
         # logic for executing task based on query
-        
+        if wikipedia in query
