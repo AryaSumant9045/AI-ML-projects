@@ -71,4 +71,4 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open vs code' in query:
-            codePath = 
+            codePath = "/Applications/Github Desktop"
