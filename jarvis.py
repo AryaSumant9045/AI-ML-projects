@@ -66,4 +66,5 @@ if __name__ == "__main__":
             import subprocess
             subprocess.call(["open", os.path.join(music_dir, songs[0])])
         
-        elif 
+        elif 'the time' in query:
+            strTime = datetime.datetime.now()
