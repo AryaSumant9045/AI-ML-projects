@@ -42,4 +42,4 @@ def takeCommand():
 
 if __name__ == "__main__":
     WishMe()
-    takeCommand()
+    query = takeCommand().lower()
