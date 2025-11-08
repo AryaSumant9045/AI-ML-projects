@@ -44,7 +44,8 @@ def takeCommand():
         return "None"
     return query
 
-def 
+def sendEmail():
+    
 if __name__ == "__main__":
     WishMe()
     while True:
