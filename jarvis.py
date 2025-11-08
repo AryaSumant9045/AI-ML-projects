@@ -75,4 +75,7 @@ if __name__ == "__main__":
             codePath = "/Applications/iMovie.app"
             subprocess.call(["open", codePath])
 
-        elif 'email to sumant' 
+        elif 'email to sumant' in query:
+            try:
+                speak("what should i say?")
+                
